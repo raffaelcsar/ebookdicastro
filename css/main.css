@@ -11,6 +11,7 @@ html, body {
 }
 
 body {    
+    background-image: linear-gradient(#e2d0f4, #FFFF);
     flex-direction: column;
 }
 
@@ -21,6 +22,8 @@ body {
 
 .container {
     display: flex;
+    justify-content: center;
+
 }
 
 .image--mock {
@@ -32,18 +35,18 @@ body {
     padding: 40px 0 0 130px;
 }
 
-.title-book{
-    width: 70%;
+.call{
+    width: 50%;
 }
 
-.title-book h1 {
+.call h1 {
     font-size: 30px;
-    padding: 10px 40px 0 50px;
+    padding: 10px 40px 20px 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 
 }
 
-.title-book h3 {
+.call h3 {
     padding: 10px 0 0 50px;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -58,7 +61,7 @@ body {
     color: gray;
 }
 
-.title-book form {
+.call form {
     width: 500px;
     margin: 20px 40px;
     padding: 20px 30px ;
